@@ -2,28 +2,58 @@ import Image from "next/image";
 
 const menu = [
   {
-    name: "Avocado Float Coffee",
-    desc: "Perpaduan creamy alpukat segar dengan espresso hasil sangrai mandiri, lengkap dengan topping es krim vanila.",
-    price: "Rp 20k",
-    tag: "Best Seller",
+    name: "Supresso",
+    desc: "Signature espresso blend hasil sangrai mandiri dengan karakter rasa yang kuat dan mantap.",
+    price: "Rp 15k",
+    tag: "Signature",
   },
   {
-    name: "Syphon Coffee",
-    desc: "Diseduh dengan metode vakum untuk rasa yang bersih dan aroma kuat dari biji kopi fresh-roasted kami.",
-    price: "Rp 25k",
-    tag: "Creamy",
+    name: "Es Kop",
+    desc: "Es kopi susu kekinian yang creamy, menggunakan biji kopi fresh-roasted pilihan.",
+    price: "Rp 15k",
+    tag: "Signature",
   },
   {
-    name: "Luwak Arabica Ponorogo",
-    desc: "Kopi Luwak pilihan khas Ponorogo dengan karakter rasa unik yang diproses dan disangrai dengan ketelitian tinggi.",
-    price: "Rp 25k",
-    tag: "Fresh",
+    name: "Tropicalberry Mocktail",
+    desc: "Paduan segar buah beri dengan sentuhan tropis yang memanjakan lidah.",
+    price: "Rp 18k",
+    tag: "Mocktail",
   },
   {
-    name: "V60",
-    desc: "Teknik manual brew yang menonjolkan karakter asli biji kopi pilihan musim ini. Fresh dari panggangan kami.",
-    price: "Rp 25k",
-    tag: "Origin",
+    name: "Blackpeach Mocktail",
+    desc: "Kesegaran buah persik berpadu dengan kopi hitam hasil panggangan sendiri.",
+    price: "Rp 18k",
+    tag: "Mocktail",
+  },
+  {
+    name: "Strawberry Bomb",
+    desc: "Minuman soda rasa stroberi yang segar dan memberikan sensasi ledakan rasa buah.",
+    price: "Rp 18k",
+    tag: "Flavoured Soda",
+  },
+  {
+    name: "Es Kop Caramelo",
+    desc: "Es kopi susu dengan sentuhan sirup karamel manis yang lembut dan aromatik.",
+    price: "Rp 18k",
+    tag: "Signature",
+  },
+  {
+    name: "Summertimes",
+    desc: "Minuman berbasis kopi atau teh yang menyegarkan, cocok untuk menemani siang harimu.",
+    price: "Rp 18k",
+    tag: "Coffee/Tea Based",
+  },
+  {
+    name: "Passion Fruit Mocktail",
+    desc: "Mocktail buah markisa yang asam manis segar untuk membangkitkan semangat.",
+    price: "Rp 18k",
+    tag: "Mocktail",
+  },
+  {
+    name: "Mix Tropis",
+    desc: "Kombinasi soda dengan aneka rasa buah tropis yang super segar.",
+    price: "Rp 18k",
+    tag: "Flavoured Soda",
   },
 ];
 
@@ -352,7 +382,7 @@ export default function Home() {
                     JAM OPERASIONAL
                   </p>
                   <p className="text-lg font-black text-foreground dark:text-white">
-                    Setiap Hari 09:00 - 20:00
+                    Setiap Hari 08:00 - 23:00
                   </p>
                 </div>
                 <div className="rounded-xl border-2 border-primary/20 bg-card p-6 dark:bg-black/50 dark:border-accent/20">
